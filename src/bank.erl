@@ -22,9 +22,10 @@ bank_receive_function(Pid,Funds)->
         true ->
           whereis(Pd)!{response,Pid,Amount},
          bank_receive_function(Pid,Funds)
-      end
+      end;
+    display1->
+       whereis(masterprocess)!{remain,Pid,Funds}
   end.
-
 
 
 
