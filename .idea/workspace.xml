@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e692ab37-e7d7-4e4d-9479-deb7516de5b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Comp6411/bank.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comp6411/bank.beam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Comp6411/money.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Comp6411/money.beam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Comp6411/bank.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Comp6411/bank.beam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Comp6411/money.beam" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Comp6411/money.beam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/banks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/customers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/money.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/money.erl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +24,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/customer.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="-10">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customers.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -46,8 +51,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/money.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="95">
+              <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/banks.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -67,6 +81,7 @@
       <find>inside</find>
       <find>temp</find>
       <find>bmo a</find>
+      <find>from jill</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,10 +90,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/banks.txt" />
         <option value="$PROJECT_DIR$/src/bank.erl" />
         <option value="$PROJECT_DIR$/src/customer.erl" />
         <option value="$PROJECT_DIR$/src/money.erl" />
+        <option value="$PROJECT_DIR$/banks.txt" />
+        <option value="$PROJECT_DIR$/customers.txt" />
       </list>
     </option>
   </component>
@@ -340,16 +356,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/customers.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banks.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/erl10.4/lib/stdlib-3.9/src/lists.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -357,10 +363,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/customers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banks.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/customer.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="-10">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -373,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/money.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="95">
+          <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
         </state>
       </provider>
     </entry>
